@@ -4,3 +4,14 @@
     box-sizing: border-box;
     font-family: 'roboto', sans-serif;
 }
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.card img {    
+    border-style: solid;
+    border-radius: 10px;
+    border-color: #3882F6;
+}
