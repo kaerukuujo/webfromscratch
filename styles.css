@@ -33,7 +33,9 @@ h2 {
 nav {
     display: flex;
     justify-content: space-between;
-    padding: 10px 75px;
+    padding-top: 10px;
+    padding-right: 75px;
+    padding-left: 75px;
 }
 
 nav p {
@@ -73,7 +75,7 @@ nav p {
     display: flex;
     margin-top: 25px;
     margin-right: 150px;
-    margin-bottom: 50px;
+    margin-bottom: 75px;
     margin-left: 150px;
     justify-content: center;
     gap: 30px;
@@ -82,6 +84,7 @@ nav p {
 .card {
     display: flex;
     flex-direction: column;
+    gap: 10px;
     max-width: 20%;
     height: auto;
 }
